@@ -1,0 +1,114 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    background-color: #ffe9f0;
+    color: #000000;
+}
+header {
+    background-color: #f8d8e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #8b2b56;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b2b56;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #5b1636;
+}
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+main section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+h2 {
+    margin-bottom: 15px;
+    color: #8b2b56;
+}
+.contenido-flexible {
+    display: flex; /* Código del maestro*/
+    gap: 20px; /* Código del maestro*/
+     padding: 20px;
+    margin-bottom: 20px;
+    margin: 40px;
+    border-radius: 8px;
+}
+.seccion-principal {
+    flex: 2; /* Código del maestro*/
+}
+aside {
+    flex: 1; /* Código del maestro*/
+    gap: 30px;
+    background-color: #f7cad9;
+    padding: 20px;
+    height: 100%;
+    border-radius: 8px;
+}
+.producto {
+    display: flex;
+    align-items: center; /* Código del maestro*/
+    gap: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+.producto img {
+    max-width: 100px; /* Código del maestro*/
+    height: auto; /* Código del maestro*/
+    border-radius: 8px;
+}
+footer {
+    background-color: #f8d8e3;
+    text-align: center;
+    padding: 20px;
+    color: #5b1636;
+    font-weight: 500;
+}
+footer a {
+    color: #8b2b56;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer p{
+    color: #973170;
+}
