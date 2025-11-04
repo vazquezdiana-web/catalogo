@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema de materiales</title>
+        <script type="text/javascript">
+        function confirmar(){
+            return confirm('¿Estas seguro?, se eliminarán los datos');
+        }
+        </script>
+        <link rel="stylesheet" type="text/css" href="miestilo.css">
+    </head>
+    
+    <body>      
+        <header>
+         <p>Sistema de Control de Almacen de Totalplay</p>    
+        <nav>
+            <ul>
+		      
+		      <li><a href="listaemp.php">Empleados</a></li>
+		      <li><a href="listamat.php">Control de almacen</a></l>
+              <li><a href="listaemp2.php">Asignación de materiales</a></l>
+            
+            </ul>
+        </nav>
+        </header> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <p>Derechos reservados, Minatitlán Junio 2023</p>    
+    </body>
+</html>
