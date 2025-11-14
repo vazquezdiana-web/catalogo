@@ -1,0 +1,178 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    background-color: #ffe9f0;
+    color: #000000;
+}
+/* Estilos del Header/Nav */
+.bg-cafe {
+    background-color: #f8d1df; /* Tono marrón oscuro para el nav */
+}
+header {
+    background-color: #f8d8e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+header h1 {
+    font-size: 26px;
+    color: #8b2b56;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #8b2b56;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #5b1636;
+}
+
+/* Estilos Generales de Secciones */
+h2 {
+    text-align: center;
+    color: #8b2b56;
+    font-size: 25px;
+}
+p {
+    text-align: center;
+    color: #dd84a5;
+}
+.seccion {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8e0e9; /* Fondo de sección */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+/* Formularios (Reserva y Contacto) */
+#reserva form, #contacto form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#reserva input, #contacto input, #contacto textarea {
+    padding: 10px;
+    border: 1px solid #ffc0cb;
+    border-radius: 10px;
+}
+#reserva button, #contacto button {
+    background-color: #8b2b56; 
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#reserva button:hover, #contacto button:hover {
+    background-color: #5b1636;
+    transform: scale(1.05);
+}
+#mensaje {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #8b2b56;
+}
+.btn-mapa {
+    display: inline-block;
+    background-color: #8b2b56; 
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.btn-mapa:hover {
+    background-color: #f8d8e3;
+    color: #5b1636;
+    transform: scale(1.05);
+}
+.text-size-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-size {
+    background-color: #fad5e2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #8b2b56;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-size:hover {
+    background-color: #f8d8e3;
+}
+/* Footer */
+footer {
+    background-color: #f8d8e3;
+    text-align: center;
+    padding: 20px;
+    color: #5b1636;
+    font-weight: 500;
+}
+footer a {
+    color: #8b2b56;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
+@media (max-width: 768px) {
+    .filtros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .filtros button {
+        flex-grow: 1;
+        min-width: 150px;
+    }
+    .producto img {
+        height: 150px;
+    }
+}

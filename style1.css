@@ -1,0 +1,207 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    background-color: #ffe9f0;
+    color: #000000;
+}
+header {
+    background-color: #f8d8e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #8b2b56;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b2b56;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #5b1636;
+}
+.pedido-container,
+.reserva-container {
+    max-width: 550px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.pedido-container h2,
+.reserva-container h2 {
+    color: #8b2b56;
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #5b1636;
+}
+
+.pedido-container input,
+.reserva-container input,
+.pedido-container select,
+.reserva-container select,
+.pedido-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+.pedido-container button,
+.reserva-container button {
+    display: block;
+    margin: 20px auto 0;
+    width: 60%;
+    background-color: #9c2d5f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pedido-container button:hover,
+.reserva-container button:hover {
+    background-color: #f8d8e3;
+    color: #5b1636;
+    transform: scale(1.05);
+}
+
+#mensaje-pedido,
+#mensaje-reserva {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #8b2b56;
+}
+.btn-success {
+    display: block;
+    margin: 30px auto;
+    background-color: #f8d8e3;
+    color: #8b2b56;
+    border: 1px solid #8b2b56;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #fadee8;
+    color: #5b1636;
+}
+.modal-content {
+    background-color: #fff0f6;
+    border-radius: 15px;
+    border: 2px solid #f8d8e3;
+}
+
+.modal-header {
+    background-color: #f8d8e3;
+    color: #8b2b56;
+    border-bottom: 2px solid #f3b6cd;
+}
+
+.modal-body {
+    color: #5b1636;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.modal-footer {
+    background-color: #f8d8e3;
+}
+
+.btn-secondary {
+    background-color: #8b2b56 !important;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #5b1636 !important;
+}
+.text-size-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-size {
+    background-color: #fad5e2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #8b2b56;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-size:hover {
+    background-color: #f8d8e3;
+}
+footer {
+    background-color: #f8d8e3;
+    text-align: center;
+    padding: 20px;
+    color: #5b1636;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #8b2b56;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #973170;
+}

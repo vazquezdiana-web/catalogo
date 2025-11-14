@@ -33,6 +33,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 25px;
+    width: 98%;
     margin: 0;
     padding: 0;
 }
@@ -87,6 +88,28 @@ main section {
 }
 .galeria img:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+/* CONTROLES DE TAMAÑO DE TEXTO */
+.text-size-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-size {
+    background-color: #fad5e2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #8b2b56;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-size:hover {
+    background-color: #f8d8e3;
 }
 footer {
     background-color: #f8d8e3;

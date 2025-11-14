@@ -10,37 +10,46 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: #f8d8e3;
 }
+
 header .logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 header .logo img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
+
 header h1 {
     font-size: 26px;
     color: #8b2b56;
     margin: 0;
 }
+
 nav ul {
-    list-style: none; 
-    display: flex; 
-    justify-content: center; 
-    gap: 20px; 
+    list-style: none;
+    display: flex;
+    width: 98%;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
 }
-nav a {
-    text-decoration: none; /* Código del maestro*/
-    color: #973170;
-    font-weight: bold; 
+
+nav ul li a {
+    text-decoration: none;
+    color: #8b2b56;
+    font-weight: bold;
+    transition: 0.3s;
 }
-nav a:hover {
-    color: #973170; /* Código del maestro*/
-    }
+
+nav ul li a:hover {
+    color: #5b1636;
+}
 main section {
     background-color: #fff;
     padding: 20px;
@@ -110,6 +119,28 @@ aside {
     max-width: 100px; /* Código del maestro*/
     height: auto; /* Código del maestro*/
     border-radius: 8px;
+}
+/* CONTROLES DE TAMAÑO DE TEXTO */
+.text-size-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-size {
+    background-color: #fad5e2;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #8b2b56;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-size:hover {
+    background-color: #f8d8e3;
 }
 footer {
     background-color: #f8d8e3;
